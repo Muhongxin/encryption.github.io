@@ -1,0 +1,14 @@
+# 应用名称配置
+spring:
+  application:
+    name: encryption-application
+
+# 端口配置 | port config
+server:
+  port: 9035
+
+logging:
+  # Forward logs to logstash over a socket, used by LoggingConfiguration
+  level:
+    com.mhx.encryption: debug
+    org.springframework: warn
